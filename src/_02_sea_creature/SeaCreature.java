@@ -18,15 +18,16 @@ public class SeaCreature {
 	SeaCreature(String name) {
 		this.name = name;
 	}
-
 	public String getName() {
 		return "My name is " + name;
 	}
-
+	public void setName() {
+		this.name = name;
+		System.out.println(name);
+	}
 	public void eat() {
 		System.out.println(name + " is eating krabby patties");
 	}
-
 	public void laugh() {
 		try {
 		    AudioClip sound = JApplet.newAudioClip(getClass().getResource(this.name + ".wav"));
