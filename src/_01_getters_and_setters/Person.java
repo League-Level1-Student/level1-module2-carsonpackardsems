@@ -9,10 +9,10 @@ String getName(){
 String	getPower() {
 	return power;
 }
-public void setName(String meat) {
+public void setName(String name) {
 	this.name = name;
 }
-public void setPower(String sauce) {
+public void setPower(String power) {
 	this.power = power;
 }
 }

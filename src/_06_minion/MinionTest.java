@@ -24,7 +24,6 @@ This is because there is no Minion class in the package.
   			private int eyes; 
   			private String color; 
   			private String master;
-
  3.
   Next, create a constructor, and getters and setters for all the member variables of the Minion class. 
   If they’re done right, all these tests will pass.
@@ -34,8 +33,6 @@ This is because there is no Minion class in the package.
  */
 
 public class MinionTest {
-
-	@Test
 	public void testConstructor() {
 		Minion stuart = new Minion("Stuart", 1, "yellow", "");
 		assertEquals("Stuart", stuart.getName());
